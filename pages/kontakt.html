@@ -24,6 +24,45 @@
 
 <FONTSIZE=4>  
 
+<form id="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+
+<fieldset style="width: 450px;">
+
+<legend>Kontakta mig</legend>
+
+<label for="fnamn">Namn:</label> <br />
+<input type="text" name="fnamn" id="fnamn" /> <br />
+
+<label for="select"><br />
+Ärendtyp</label><br />
+
+<select name="Ärendtyp" id="Ärendtyp">
+<option> Välj Ärendtyp </option>
+<option value="var"> Hjälp </option>
+<option value="sommar"> Fråga </option>
+<option value="host"> Tips </option>
+</select>
+
+<label for="meddelande">Meddelande:</label> <br />
+<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea>
+
+</fieldset>
+
+<fieldset style="width: 450px;">
+<legend>ÖVRIG INFORMATION</legend>
+
+<input type="radio" name="ring" id="ring" value="ring" />
+<label for="ring">Ring mig</label> <br />
+
+<input type="radio" name="mail" id="mail" value="mail" />
+<label for="mail">maila mig</label> <br />
+
+</fieldset>
+
+<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+
+</form>
+
 </FONT>
 
 
