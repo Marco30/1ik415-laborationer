@@ -150,17 +150,13 @@ table {
         text-align:center;
 }
 
- .right
+#blogg table, th, td 
 {
-      float:right; 
-      margin: 0 0 20px 20px;
-}
+        margin-left:auto; 
+        margin-right:auto;
+        border: 1px solid black;
+} 
 
- .left
-{
-      float:left; 
-      margin: 20px 500px 20px 20px;
-}
 
 #blogg H2
 {
@@ -207,3 +203,22 @@ table {
     
 }
 
+ .right
+{
+        float:right; 
+        margin: 0 0 20px 20px;
+}
+
+ .left
+{
+        float:left; 
+        margin: 20px 520px 20px 20px;
+}
+
+
+.lablista
+{
+        padding-left: 200px;
+        text-align:left;
+        padding: 5;
+}
