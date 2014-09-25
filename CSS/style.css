@@ -150,6 +150,18 @@ table {
         text-align:center;
 }
 
+ .right
+{
+      float:right; 
+      margin: 0 0 20px 20px;
+}
+
+ .left
+{
+      float:left; 
+      margin: 20px 500px 20px 20px;
+}
+
 #blogg H2
 {
         font-family: Tahoma, Geneva, sans-serif;
