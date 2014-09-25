@@ -63,29 +63,114 @@ table {
         width: 960px;
         height:171px;
         float: none;
+        background-image: url(pics/Max.png);
         
-        
-        background-image: url(/pics/Max.png);
-        
+}
 
+#sidhuvud H1
+{
+font-weight: bold;
+    line-height:171px;
+    text-align:center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 65px;
+    color:white;
 }
 
 
-
-#kolumn1 
+#menyruta 
 {
         float: left; 
         width: 155px;
 margin: 5px; 
+font-family: Impact, Charcoal, sans-serif;
+
+
+
 }
 
-#kolumn2 
+#menyruta H4
+{
+        line-height:50px;
+    font-weight: bold;
+    text-align:center;
+    font-size: 35px;
+}
+
+#meny
+{
+      text-align: center;
+}
+	#meny li { 
+	margin: 5px;
+       padding: 0;
+list-style: none;
+
+
+	}
+	
+	#meny li a {
+display: block;
+width: 130px;
+margin: 0;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+font-family: Impact, Charcoal, sans-serif;
+font-size: 25px;
+color: white;
+border-radius: 5px;
+border: 1px solid red;
+background: url('pics/Max.png');
+	
+	        }
+
+#meny li a:hover {
+  padding: 6px 12px;
+  color: white;
+	}
+	
+#meny #active {
+background: black;
+}
+
+
+#blogg 
 {
         float: left;
         width: 780px; 
         border-left: 2px solid black;
     margin: 5px; 
+    text-align:center;
+    
+    
 }
+
+#blogg H2
+{
+        font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    font-size: 40px;
+}
+
+#blogg H4
+{
+        line-height:100px;
+        font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    font-size: 20px;
+}
+
+#blogg P
+{
+        padding-left: 5%;
+        font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-weight: bold;
+    text-align:left;
+    
+}
+
 #sidfot 
 {	
         clear: left;
@@ -96,43 +181,13 @@ margin: 5px;
 
 }
 
-
-
-/* min meny  */
- #menu {
-	background: white;
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+#sidfot P
+{
+        line-height:50px;
+        text-align:center;
+        font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+        font-weight: bold;
+    
+    
 }
-
-	#meny li { 
-	margin: 5px;
-       padding: 0;
-
-	}
-	
-	#meny a {
-	font: 12px Verdana;
-  padding: 4px;
-  color: #646464;
-  display: block;
-  padding: 6px 30px;
-  height: 20px;
-  text-decoration: none;
-  background: url('/pics/Max.png');
-
-}
-	#meny a:hover {
-  background: url('/pics/Max.png') no-repeat right;
-  padding: 6px 40px;
-	}
-	
-#meny a #current {
-background: black;
-}
-
-
 
