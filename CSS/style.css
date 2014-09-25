@@ -52,8 +52,9 @@ table {
 {	
         width:960px;
         margin:0 auto;
-         background-color: #BDB9BF;
-     
+         background-color: #EDF5FF;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
     
 }
 
@@ -94,3 +95,44 @@ margin: 5px;
         border-top: 2px solid black;
 
 }
+
+
+
+/* min meny  */
+ #menu {
+	background: white;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+	#meny li { 
+	margin: 5px;
+       padding: 0;
+
+	}
+	
+	#meny a {
+	font: 12px Verdana;
+  padding: 4px;
+  color: #646464;
+  display: block;
+  padding: 6px 30px;
+  height: 20px;
+  text-decoration: none;
+  background: url('/pics/Max.png');
+
+}
+	#meny a:hover {
+  background: url('/pics/Max.png') no-repeat right;
+  padding: 6px 40px;
+	}
+	
+#meny a #current {
+background: black;
+}
+
+
+
