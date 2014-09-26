@@ -57,7 +57,8 @@ table {
         border-right: 2px solid black;
 }
 
-#sidhuvud 
+
+#sidhuvud /* skappar rammen längs upp, den som har sidans namn */
 {
         width: 960px;
         height:171px;
@@ -66,18 +67,18 @@ table {
         
 }
 
-#sidhuvud H1
+#sidhuvud H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
 {
         font-weight: bold;
         line-height:171px;
         text-align:center;
         font-family: Impact, Charcoal, sans-serif;
         font-size: 65px;
-        color:white;
+        color:black;
 }
 
 
-#menyruta 
+#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
 {
         float: left; 
         width: 155px;
@@ -91,7 +92,7 @@ table {
       
 }
 
-#menyruta H4
+#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
         line-height:50px;
         font-weight: bold;
@@ -99,21 +100,21 @@ table {
         font-size: 35px;
 }
 
-#meny
+#meny /* centerar all text i meny div*/ 
 {
         text-align: center;
        
 }
 
 
-#meny li 
+#meny li /* ger li följande egenskaper som alltid är bundna till meny div */
 { 
         margin: 5px;
         padding: 0;
         list-style: none;
 }
 	
-#meny li a 
+#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
         display: block;
         width: 130px;
@@ -129,13 +130,13 @@ table {
 	
 }
 
-#meny li a:hover 
+#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
         padding: 6px 12px;
         color: white;
 }
 	
-#meny #active 
+#meny #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
         background: black;
 }
@@ -203,13 +204,13 @@ table {
     
 }
 
- .right
+ .right /*class som   placerar objekt till höger*/
 {
         float:right; 
         margin: 0 0 20px 20px;
 }
 
- .left
+ .left /*class som   placerar objekt till vänster*/
 {
         float:left; 
         margin: 20px 520px 20px 20px;
