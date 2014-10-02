@@ -274,6 +274,14 @@ border: 5px solid #AA3939;
         margin: 20px 520px 20px 20px;
 }
 
+.lenk /*class som   placerar objekt till vänster*/
+{
+        float: left;
+margin: 3px 500px 20px 39px;
+text-decoration: none;
+font-family: Verdana;
+font-size: 24px;
+}
 
 .lablista
 {
