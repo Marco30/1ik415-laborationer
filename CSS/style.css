@@ -60,11 +60,10 @@ table {
 
 #sidhuvud /* skappar rammen längs upp, den som har sidans namn */
 {
-        width: 960px;
-        height:171px;
-        float: none;
+      
         background-image: url(pics/Max.png);
-        
+        height:171px;
+       
 }
 
 #sidhuvud H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
@@ -132,7 +131,7 @@ table {
 
 #meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
-        padding: 6px 12px;
+        padding: 5px 12px;
         color: white;
 }
 	
@@ -146,6 +145,7 @@ table {
 {
         float: left;
         width: 780px; 
+        height: 800px;
         border-left: 2px solid black;
         margin: 5px; 
         text-align:center;
@@ -175,6 +175,65 @@ table {
         text-align:center;
         font-size: 20px;
 }
+
+#blogg form 
+{
+text-align: left;
+background: none repeat scroll 0% 0% #CCC;
+border: 1px solid rgb(170, 57, 57);
+padding-left: 100px;
+color: rgb(170, 57, 57);
+font-size: 18px;
+font-weight: bold;
+font-family: Tahoma,Geneva,sans-serif;
+margin: 20px 50px 20px 90px;
+}
+
+#blogg form H4
+{
+        line-height:100px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        font-size: 30px;
+}
+
+#blogg input {
+color: rgb(170, 57, 57);
+padding: 10px;
+font-family: Tahoma,Geneva,sans-serif;
+font-size: 16px;
+margin-bottom: 15px;
+margin-top: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+border: 5px solid rgb(170, 57, 57);
+}
+
+#blogg select {
+border: 5px solid #AA3939;
+padding: 10px;
+font-family: Keffeesatz,Arial;
+font-size: 14px;
+margin-bottom: 15px;
+margin-top: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+color: #AA3939;
+}
+
+
+#blogg textarea {
+color: #AA3939;
+background-color: rgba(255, 255, 255, 0.4);
+padding: 10px;
+font-family: Keffeesatz,Arial;
+margin-top: 10px;
+width: 450px;
+margin-bottom: 15px;
+font-size: 16px;
+border: 5px solid #AA3939;
+}
+
+
 
 #blogg P
 {
