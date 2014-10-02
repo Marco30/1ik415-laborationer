@@ -145,7 +145,6 @@ table {
 {
         float: left;
         width: 780px; 
-        height: 800px;
         border-left: 2px solid black;
         margin: 5px; 
         text-align:center;
@@ -281,4 +280,54 @@ border: 5px solid #AA3939;
         padding-left: 200px;
         text-align:left;
         padding: 5;
+}
+
+
+        /* CSS för utrskrift startar här ifrån */
+        
+@media print {
+
+
+        /* tar bort element som man inte vill ha i utskriften */
+    
+       
+        #menyruta, #sidfot
+        {
+        display: none;
+        border: 0;
+
+        }
+        
+        #inramning
+        {
+        background-color:none;
+        border-left: none;
+        border-right: none;
+        }
+        
+
+        #blogg
+        {
+        border: none;
+        }
+        
+        img {
+        display: none !important;
+        }
+
+
+        /* gör så att man får färg på lenkar i utskriften */
+        #blogg a:link, a:visited
+        {
+        color: #781351;
+        }
+        
+        /*visar hela adressen på en lenk bredvid namnet*/  
+        #blogg a:after {
+        content: " (" attr(href) ")";
+        font-size: 80%;
+        }
+        
+
+
 }
