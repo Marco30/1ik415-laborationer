@@ -177,15 +177,15 @@ table {
 
 #blogg form 
 {
-text-align: left;
-background: none repeat scroll 0% 0% #CCC;
-border: 1px solid rgb(170, 57, 57);
-padding-left: 100px;
-color: rgb(170, 57, 57);
-font-size: 18px;
-font-weight: bold;
-font-family: Tahoma,Geneva,sans-serif;
-margin: 20px 50px 20px 90px;
+        text-align: left;
+        background: none repeat scroll 0% 0% #CCC;
+        border: 1px solid rgb(170, 57, 57);
+        padding-left: 100px;
+        color: rgb(170, 57, 57);
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Tahoma,Geneva,sans-serif;
+        margin: 20px 50px 20px 90px;
 }
 
 #blogg form H4
@@ -197,39 +197,42 @@ margin: 20px 50px 20px 90px;
         font-size: 30px;
 }
 
-#blogg input {
-color: rgb(170, 57, 57);
-padding: 10px;
-font-family: Tahoma,Geneva,sans-serif;
-font-size: 16px;
-margin-bottom: 15px;
-margin-top: 10px;
-background-color: rgba(255, 255, 255, 0.4);
-border: 5px solid rgb(170, 57, 57);
+#blogg input 
+{
+        color: rgb(170, 57, 57);
+        padding: 10px;
+        font-family: Tahoma,Geneva,sans-serif;
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 5px solid rgb(170, 57, 57);
 }
 
-#blogg select {
-border: 5px solid #AA3939;
-padding: 10px;
-font-family: Keffeesatz,Arial;
-font-size: 14px;
-margin-bottom: 15px;
-margin-top: 10px;
-background-color: rgba(255, 255, 255, 0.4);
-color: #AA3939;
+#blogg select 
+{
+        border: 5px solid #AA3939;
+        padding: 10px;
+        font-family: Keffeesatz,Arial;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.4);
+        color: #AA3939;
 }
 
 
-#blogg textarea {
-color: #AA3939;
-background-color: rgba(255, 255, 255, 0.4);
-padding: 10px;
-font-family: Keffeesatz,Arial;
-margin-top: 10px;
-width: 450px;
-margin-bottom: 15px;
-font-size: 16px;
-border: 5px solid #AA3939;
+#blogg textarea 
+{
+        color: #AA3939;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 10px;
+        font-family: Keffeesatz,Arial;
+        margin-top: 10px;
+        width: 450px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        border: 5px solid #AA3939;
 }
 
 
@@ -278,22 +281,22 @@ border: 5px solid #AA3939;
 .lenk /*class som   placerar objekt till vänster*/
 {
         float: left;
-margin: 17px 676px 36px 155px;
-text-decoration: none;
-font-family: Verdana;
-font-size: 24px;
+        margin: 17px 676px 36px 155px;
+        text-decoration: none;
+        font-family: Verdana;
+        font-size: 14px;
 }
 
 #blogg #sprite {
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 24px -144px;
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 24px -144px;
 }
 
 #blogg #sprite:hover{
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 24px -96px;
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 24px -96px;
     
 }
 
@@ -316,39 +319,40 @@ font-size: 24px;
        
         #menyruta, #sidfot
         {
-        display: none;
-        border: 0;
+                display: none;
+                border: 0;
 
         }
         
         #inramning
         {
-        background-color:none;
-        border-left: none;
-        border-right: none;
+                background-color:none;
+                border-left: none;
+                border-right: none;
         }
         
 
         #blogg
         {
-        border: none;
+                border: none;
         }
         
         img {
-        display: none !important;
+                display: none;
         }
 
 
         /* gör så att man får färg på lenkar i utskriften */
         #blogg a:link, a:visited
         {
-        color: #781351;
+                color: #781351;
         }
         
         /*visar hela adressen på en lenk bredvid namnet*/  
-        #blogg a:after {
-        content: " (" attr(href) ")";
-        font-size: 14px 0px;
+        #blogg a:after 
+        {
+                content: " (" attr(href) ")";
+                font-size: 14px 0px;
         }
         
 
