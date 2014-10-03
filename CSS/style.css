@@ -125,7 +125,7 @@ table {
         color: white;
         border-radius: 5px;
         border: 1px solid red;
-        background: url('pics/Max.png');
+       background: url('pics/Max.png');
 	
 }
 
@@ -262,6 +262,7 @@ border: 5px solid #AA3939;
     
 }
 
+
  .right /*class som   placerar objekt till höger*/
 {
         float:right; 
@@ -277,11 +278,25 @@ border: 5px solid #AA3939;
 .lenk /*class som   placerar objekt till vänster*/
 {
         float: left;
-margin: 3px 500px 20px 39px;
+margin: 3px 643px 20px 42px;
 text-decoration: none;
 font-family: Verdana;
 font-size: 24px;
 }
+
+#blogg a {
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 24px -144px;
+}
+
+#blogg a:hover{
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 24px -96px;
+    
+}
+
 
 .lablista
 {
