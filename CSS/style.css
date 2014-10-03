@@ -278,19 +278,19 @@ border: 5px solid #AA3939;
 .lenk /*class som   placerar objekt till vänster*/
 {
         float: left;
-margin: 3px 643px 20px 42px;
+margin: 17px 676px 36px 155px;
 text-decoration: none;
 font-family: Verdana;
 font-size: 24px;
 }
 
-#blogg a {
+#blogg #sprite {
     width: 24px;
     height: 24px;
     background: url(pics/sprite.png) 24px -144px;
 }
 
-#blogg a:hover{
+#blogg #sprite:hover{
     width: 24px;
     height: 24px;
     background: url(pics/sprite.png) 24px -96px;
@@ -348,7 +348,7 @@ font-size: 24px;
         /*visar hela adressen på en lenk bredvid namnet*/  
         #blogg a:after {
         content: " (" attr(href) ")";
-        font-size: 80%;
+        font-size: 14px 0px;
         }
         
 
