@@ -278,27 +278,64 @@ table {
         margin: 20px 520px 20px 20px;
 }
 
-.lenk /*class som   placerar objekt till vänster*/
-{
-        float: left;
-        margin: 17px 676px 36px 155px;
-        text-decoration: none;
-        font-family: Verdana;
-        font-size: 14px;
-}
 
 #blogg #sprite {
         width: 24px;
         height: 24px;
         background: url(pics/sprite.png) 24px -144px;
+padding: 4px 24px 3px 0px;
+display: block;
+width: 147px;
+margin: 0px 0px -17px 16px;
+background-repeat: no-repeat;
+text-decoration: none;
+color: #ccc8b8;
+
+
 }
 
 #blogg #sprite:hover{
         width: 24px;
         height: 24px;
         background: url(pics/sprite.png) 24px -96px;
-    
+padding: 4px 24px 3px 0px;
+display: block;
+width: 147px;
+margin: 0px 0px -17px 16px;
+background-repeat: no-repeat;
+text-decoration: none;
+color: blue;
 }
+
+#blogg #b {
+   
+  width: 24px;
+  height: 24px;
+   background: url('pics/sprite.png') 24px -192px;
+ text-align: center;
+padding: 5px 24px 3px 0px;
+display: block;
+width: 147px;
+margin: 9px 0px -26px -48px;
+background-repeat: no-repeat;
+text-decoration: none;
+   
+} 
+
+#blogg #b:hover{
+  background: url('pics/sprite.png') 24px -240px;  
+  width: 24px;
+  height: 24px;
+  text-align: center;
+padding: 5px 24px 3px 0px;
+display: block;
+width: 147px;
+margin: 9px 0px -26px -48px;
+background-repeat: no-repeat;
+color: #ccc8b8;
+text-decoration: none;
+  
+} 
 
 
 .lablista
