@@ -426,65 +426,59 @@ color: black;
 		width: 100%;
 	}
 
-#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
+div#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
 {
-        float: left; 
-        width: 155px;
-        height: 600px;
-        margin: 5px; 
-        font-family: Impact, Charcoal, sans-serif;
-        background-image: url(pics/fun1.png);
-        background-repeat: no-repeat; 
-        background-position:15px 250px;
-       
+        font-family: Impact,Charcoal,sans-serif;
+width: 480px;
+height: auto;
+margin: 3px 0px 10px -44px;
       
 }
 
-#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
+div#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
-        line-height:50px;
-        font-weight: bold;
-        text-align:center;
-        font-size: 35px;
+        font-size: 19px;
+line-height: 35px;
+display: none;
+
 }
 
-#meny /* centerar all text i meny div*/ 
+div#meny /* centerar all text i meny div*/ 
 {
         text-align: center;
        
 }
 
 
-#meny li /* ger li följande egenskaper som alltid är bundna till meny div */
+div#meny li /* ger li följande egenskaper som alltid är bundna till meny div */
 { 
-        margin: 5px;
-        padding: 0;
-        list-style: none;
+        margin-right: 0px;
+display: inline-block;
+list-style: none outside none;
 }
 	
-#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
+div#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
-        display: block;
-        width: 130px;
-        margin: 0;
-        padding: 5px 10px 5px 10px;
-        text-decoration: none;
-        font-family: Impact, Charcoal, sans-serif;
-        font-size: 25px;
-        color: white;
-        border-radius: 5px;
-        border: 1px solid red;
-       background: url('pics/Max.png');
-	
+     font-family: Impact,Charcoal,sans-serif;
+font-size: 16px;
+border: 1px solid #F00;
+padding: 5px 6px;
+margin: 0px 0px 0px 6px;
+border-radius: 3px;
+display: block;
+text-decoration: none;
+color: #FFF;
+background: url('pics/Max.png') repeat scroll 0% 0% transparent;
+width: auto;
 }
 
-#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
+div#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
         padding: 5px 12px;
         color: white;
 }
 	
-#meny #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+div#meny #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
         background: black;
 }
