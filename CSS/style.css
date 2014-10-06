@@ -399,20 +399,25 @@ text-decoration: none;
         
 	div#inramning
 	{
-	        width: 400px;
+	        width: 481px;
 	}
 
         div#sidhuvud
 	{
-	        background-image: url(pics/Max.pngg);
-	        height: 93px;
+	        background-image: url(pics/maxliten.png);
+	        height: 91px;
 	        position: relative;
 	        
 	}
 
 	div#sidhuvud h1 
 	{
-	        font-size: 140%;
+	        font-size: 40px;
+font-weight: bold;
+line-height: 104px;
+text-align: center;
+font-family: Impact,Charcoal,sans-serif;
+color: black;
 	}
 
 	#blogg 
@@ -421,11 +426,67 @@ text-decoration: none;
 		width: 100%;
 	}
 
-	#meny 
-	{
-		float:none;
-		width: auto;
-		
-	}
+#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
+{
+        float: left; 
+        width: 155px;
+        height: 600px;
+        margin: 5px; 
+        font-family: Impact, Charcoal, sans-serif;
+        background-image: url(pics/fun1.png);
+        background-repeat: no-repeat; 
+        background-position:15px 250px;
+       
+      
+}
+
+#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
+{
+        line-height:50px;
+        font-weight: bold;
+        text-align:center;
+        font-size: 35px;
+}
+
+#meny /* centerar all text i meny div*/ 
+{
+        text-align: center;
+       
+}
+
+
+#meny li /* ger li följande egenskaper som alltid är bundna till meny div */
+{ 
+        margin: 5px;
+        padding: 0;
+        list-style: none;
+}
 	
+#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
+{
+        display: block;
+        width: 130px;
+        margin: 0;
+        padding: 5px 10px 5px 10px;
+        text-decoration: none;
+        font-family: Impact, Charcoal, sans-serif;
+        font-size: 25px;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid red;
+       background: url('pics/Max.png');
+	
+}
+
+#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
+{
+        padding: 5px 12px;
+        color: white;
+}
+	
+#meny #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+{
+        background: black;
+}
+
 }
