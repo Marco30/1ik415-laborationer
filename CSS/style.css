@@ -400,6 +400,10 @@ text-decoration: none;
 	div#inramning
 	{
 	        width: 481px;
+	        margin: none;
+background-color: #EDF5FF;
+border-left: 2px solid #000;
+border-right: 2px solid #000;
 	}
 
         div#sidhuvud
