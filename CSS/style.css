@@ -399,18 +399,18 @@ text-decoration: none;
         
 	div#inramning
 	{
-	        width: 100%;
-	        margin:0 auto;
-background-color: #EDF5FF;
-border-left: 2px solid #000;
-border-right: 2px solid #000;
+	         width:960px;
+        margin:0 auto;
+        background-color: #EDF5FF;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
 	}
 
         div#sidhuvud
 	{
-	        background-image: url(pics/maxliten.png);
-	        height: 91px;
-	        position: relative;
+	        background-image: url(pics/max.png);
+	        height:171px;
+
 	        
 	}
 
