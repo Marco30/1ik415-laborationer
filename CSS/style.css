@@ -542,24 +542,25 @@ div#sidfot P
 div#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
 {
         font-family: Impact,Charcoal,sans-serif;
-width: 480px;
+width: 460px;
 height: auto;
-margin: 3px 0px 10px -44px;
+padding: 2px 4px 3px 4px;
       
 }
 
 div#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
-        font-size: 19px;
-line-height: 35px;
-display: none;
+        font-size: 17px;
+margin: -14px 201px -14px 201px;
+font-family: Verdana;
 
 }
 
 div#meny /* centerar all text i meny div*/ 
 {
         text-align: center;
-       
+       border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
 }
 
 
@@ -572,17 +573,18 @@ list-style: none outside none;
 	
 div#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
-     font-family: Impact,Charcoal,sans-serif;
-font-size: 16px;
+     font-size: 13px;
 border: 1px solid #F00;
 padding: 5px 6px;
-margin: 0px 0px 0px 6px;
+margin: 0px 0px 1px 8px;
 border-radius: 3px;
 display: block;
 text-decoration: none;
 color: #FFF;
 background: url('pics/Max.png') repeat scroll 0% 0% transparent;
 width: auto;
+font-family: Verdana;
+font-weight: bold;
 }
 
 div#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
