@@ -610,5 +610,68 @@ div#meny #active /* visar vilken sida man är på i menyn genom att göra den le
     margin: 0px 18px 20px 21px;
 }
 
+/*formulär*/
+
+#blogg form 
+{
+        text-align: left;
+background: none repeat scroll 0% 0% #CCC;
+border: 1px solid #AA3939;
+color: #AA3939;
+font-size: 18px;
+font-weight: bold;
+font-family: Tahoma,Geneva,sans-serif;
+margin: 89px 53px 12px 29px;
+padding-left: 9px;
+}
+
+#blogg form H4
+{
+        line-height: 8px;
+font-family: Tahoma,Geneva,sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 24px;
+}
+
+
+#blogg input 
+{
+        color: #AA3939;
+padding: 10px;
+font-family: Tahoma,Geneva,sans-serif;
+font-size: 12px;
+margin-bottom: 15px;
+margin-top: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+border: 2px solid #AA3939;
+}
+
+#blogg select 
+{
+       border: 2px solid #AA3939;
+padding: 10px;
+font-family: Keffeesatz,Arial;
+font-size: 12px;
+margin-bottom: 15px;
+margin-top: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+color: #AA3939;
+}
+
+
+#blogg textarea 
+{
+        color: #AA3939;
+background-color: rgba(255, 255, 255, 0.4);
+padding: 10px;
+font-family: Keffeesatz,Arial;
+margin-top: 10px;
+width: 311px;
+margin-bottom: 15px;
+font-size: 16px;
+border: 2px solid #AA3939;
+}
+
 
 }
