@@ -501,11 +501,11 @@ div#blogg #sprite {
 background: url('pics/sprite.png') no-repeat scroll 24px -144px transparent;
 padding: 0px 24px 3px 48px;
 display: block;
-width: 147px;
+width: 240px;
 margin: 41px 56px -39px 157px;
 text-decoration: none;
 color: #CCC8B8;
-font-size: 31px;
+font-size: 45px;
 font-family: verdana;
 font-weight: bold;
 background-repeat: no-repeat;
@@ -518,7 +518,7 @@ div#blogg #sprite:hover{
         background: url(pics/sprite.png) 24px -96px;
 padding: 0px 24px 3px 48px;
 display: block;
-width: 147px;
+width:240px;
 margin: 41px 56px -39px 157px;
 background-repeat: no-repeat;
 text-decoration: none;
@@ -538,7 +538,7 @@ margin: 33px 0px -26px -48px;
 background-repeat: no-repeat;
 text-decoration: none;
 line-height: 10px;
-font-size: 49px;
+font-size: 42px;
 font-family: verdana;
    
 } 
@@ -555,7 +555,7 @@ background-repeat: no-repeat;
 color: #ccc8b8;
 text-decoration: none;
   line-height: 10px;
-font-size: 49px;
+font-size: 42px;
 font-family: verdana;
 } 
 
