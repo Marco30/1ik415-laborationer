@@ -531,15 +531,15 @@ div#blogg #b {
 height: 24px;
 background: url('pics/sprite.png') 24px -192px;
 text-align: center;
-padding: 5px 24px 3px 46px;
+padding: 5px 24px 3px 48px;
 display: block;
-width: 147px;
-margin: 9px 0px -26px -48px;
+width: 192px;
+margin: 33px 0px -26px -48px;
 background-repeat: no-repeat;
 text-decoration: none;
 line-height: 10px;
-font-size: 34px;
-font-family: normal;
+font-size: 49px;
+font-family: verdana;
    
 } 
 
@@ -547,16 +547,16 @@ div#blogg #b:hover{
   background: url('pics/sprite.png') 24px -240px;  
   height: 24px;
   text-align: center;
-padding: 5px 24px 3px 46px;
+padding: 5px 24px 3px 48px;
 display: block;
 width: 147px;
-margin: 9px 0px -26px -48px;
+margin: 33px 0px -26px -48px;
 background-repeat: no-repeat;
 color: #ccc8b8;
 text-decoration: none;
   line-height: 10px;
-font-size: 34px;
-font-family: normal;
+font-size: 49px;
+font-family: verdana;
 } 
 
 
