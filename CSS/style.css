@@ -400,7 +400,8 @@ text-decoration: none;
 	div#inramning
 	{
 	         width: 976px;
-margin: 0px auto;
+/*margin: 0px auto;*/
+margin: 0px 3px 0px 3px;
 background-color: #EDF5FF;
 border-left: 2px solid black;
 border-right: 2px solid black;
@@ -476,7 +477,7 @@ line-height: 60px;
 padding: 70px 0px 0px 50px;
 }
 
-#blogg table, th, td {
+div#blogg table, th, td {
 margin-right: auto;
 border: 1px solid black;
 margin: 34px 21px -61px 21px;
@@ -487,7 +488,7 @@ padding: 0px 9px 3px 9px;
 }
 
 
-#blogg a
+div#blogg a
 {
 
 line-height: 61px;
@@ -530,14 +531,12 @@ div#blogg #b {
   height: 24px;
    background: url('pics/sprite.png') 24px -192px;
  text-align: center;
-padding: 1px 76px 1px 76px;
+padding: 5px 24px 3px 0px;
 display: block;
 width: 147px;
-margin: 10px 0px -26px -48px;
+margin: 9px 0px -26px -48px;
 background-repeat: no-repeat;
 text-decoration: none;
-line-height: 33px;
-font-size: 38px;
    
 } 
 
@@ -546,15 +545,14 @@ div#blogg #b:hover{
   width: 24px;
   height: 24px;
   text-align: center;
-padding: 1px 76px 1px 76px;
+padding: 5px 24px 3px 0px;
 display: block;
 width: 147px;
-margin: 10px 0px -26px -48px;
+margin: 9px 0px -26px -48px;
 background-repeat: no-repeat;
 color: #ccc8b8;
 text-decoration: none;
- line-height: 33px;
-font-size: 38px;
+  
 } 
 
 
@@ -584,7 +582,7 @@ div#sidfot P
 div#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
 {
       font-family: Impact,Charcoal,sans-serif;
-width: 915px;
+width: 943px;
 height: auto;
 padding: 17px 10px 47px 10px;
       
@@ -593,7 +591,7 @@ padding: 17px 10px 47px 10px;
 div#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
        font-size: 60px;
-margin: 5px 201px 50px 201px;
+margin: 5px 201px 52px 201px;
 font-family: Verdana;
 
 }
@@ -615,7 +613,7 @@ list-style: none outside none;
 	
 div#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
-     font-size: 36px;
+     font-size: 40px;
 border: 2px solid #F00;
 padding: 10px 6px;
 margin: -56px 10px 23px 10px;
@@ -650,7 +648,7 @@ margin: -50px 72px 29px 28px;*/
 
 text-align: left;
 padding: 51px 0px 0px 0px;
-font-size: 30px;
+font-size: 22px;
 margin: 0px 70px 7px 28px;
 font-family: verdana;
 
