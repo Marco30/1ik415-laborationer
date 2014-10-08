@@ -551,7 +551,7 @@ div#sidfot
 {	
         clear: left;
         width: 100%;
-        height: 50px;
+        height: 70px;
         background-color: #7E7B7F;
         border-top: 2px solid black;
 
@@ -559,11 +559,11 @@ div#sidfot
 
 div#sidfot P
 {
-        line-height:50px;
+        line-height:70px;
         text-align:center;
         font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
         font-weight: bold;
-    
+    font-size: 40px;
     
 }
 
