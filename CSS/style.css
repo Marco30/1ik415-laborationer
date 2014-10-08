@@ -527,7 +527,7 @@ color: blue;
 
 div#blogg #b {
    
-  width: 24px;
+ 
 height: 24px;
 background: url('pics/sprite.png') 24px -192px;
 text-align: center;
@@ -539,13 +539,12 @@ background-repeat: no-repeat;
 text-decoration: none;
 line-height: 10px;
 font-size: 34px;
-
+font-family: normal;
    
 } 
 
 div#blogg #b:hover{
   background: url('pics/sprite.png') 24px -240px;  
-  width: 24px;
   height: 24px;
   text-align: center;
 padding: 5px 24px 3px 46px;
@@ -557,7 +556,7 @@ color: #ccc8b8;
 text-decoration: none;
   line-height: 10px;
 font-size: 34px;
-
+font-family: normal;
 } 
 
 
