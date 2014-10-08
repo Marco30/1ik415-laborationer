@@ -528,15 +528,17 @@ color: blue;
 div#blogg #b {
    
   width: 24px;
-  height: 24px;
-   background: url('pics/sprite.png') 24px -192px;
- text-align: center;
-padding: 5px 24px 3px 0px;
+height: 24px;
+background: url('pics/sprite.png') 24px -192px;
+text-align: center;
+padding: 5px 24px 3px 46px;
 display: block;
 width: 147px;
 margin: 9px 0px -26px -48px;
 background-repeat: no-repeat;
 text-decoration: none;
+line-height: 11px;
+font-size: 38px;
    
 } 
 
@@ -552,7 +554,8 @@ margin: 9px 0px -26px -48px;
 background-repeat: no-repeat;
 color: #ccc8b8;
 text-decoration: none;
-  
+  line-height: 11px;
+font-size: 38px;
 } 
 
 
