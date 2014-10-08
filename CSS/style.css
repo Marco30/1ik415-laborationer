@@ -613,10 +613,10 @@ list-style: none outside none;
 	
 div#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
-     font-size: 40px;
+     font-size: 38px;
 border: 2px solid #F00;
 padding: 10px 6px;
-margin: -56px 10px 23px 10px;
+margin: -56px 5px 23px 5px;
 border-radius: 3px;
 display: block;
 text-decoration: none;
@@ -629,7 +629,7 @@ font-weight: none;
 
 div#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
-        padding: 10px 12px;
+        padding: 10px 8px;
         color: white;
 }
 	
