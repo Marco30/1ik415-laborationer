@@ -399,11 +399,11 @@ text-decoration: none;
         
 	div#inramning
 	{
-	         width:960px;
-        margin:0 auto;
-        background-color: #EDF5FF;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+	         width: 976px;
+margin: 0px auto;
+background-color: #EDF5FF;
+border-left: 2px solid black;
+border-right: 2px solid black;
 	}
 
         div#sidhuvud /* skappar rammen längs upp, den som har sidans namn */
@@ -416,11 +416,10 @@ text-decoration: none;
 
 div#sidhuvud H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
 {
-        font-weight: none;
-line-height: 171px;
+        line-height: 171px;
 text-align: center;
 font-family: Verdana;
-font-size: 61px;
+font-size: 86px;
 color: white;
 }
 
@@ -447,20 +446,19 @@ div#blogg H4
     line-height: 90px;
 font-weight: bold;
 text-align: center;
-font-size: 13px;
 padding: 40px 7px 16px;
+font-size: 42px;
 font-family: verdana;
 
 }
 
 div#blogg P {
-    padding-left: 0%;
-font-family: verdana;
+   font-family: verdana;
 font-weight: bold;
 text-align: left;
-font-size: 16px;
-margin: 34px 117px -40px 117px;
-width: 684px;
+font-size: 17px;
+margin: 35px 92px -40px 0px;
+width: 896px;
 }
 
 #blogg table, th, td {
@@ -477,10 +475,9 @@ padding: 0px 9px 3px 9px;
 #blogg a
 {
 
-font-size: 16px;
-font-family: verdana;
 line-height: 61px;
-
+font-size: 42px;
+font-family: verdana;
 }
 
 div#blogg #sprite {
@@ -580,8 +577,8 @@ padding: 17px 10px 47px 10px;
 
 div#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
-        font-size: 44px;
-margin: 3px 201px 41px 201px;
+       font-size: 60px;
+margin: 5px 201px 50px 201px;
 font-family: Verdana;
 
 }
@@ -633,13 +630,18 @@ div#meny #active /* visar vilken sida man är på i menyn genom att göra den le
         
        text-align: left;
 padding: 0px 0px 0px 0px;
-font-size: 13px;
-margin: 0px 72px 29px 72px;
+font-size: 15px;
+margin: 0px 72px 29px 28px;
 }
 
 .right {
     float: right;
     margin: 48px 126px 0px 126px;
+}
+
+.left {
+float: left;
+margin: 20px 617px 20px 20px;
 }
 
 /*formulär*/
@@ -650,20 +652,22 @@ margin: 0px 72px 29px 72px;
 background: none repeat scroll 0% 0% #CCC;
 border: 1px solid #AA3939;
 color: #AA3939;
-font-size: 18px;
+font-size: 50px;
 font-weight: bold;
-font-family: Tahoma,Geneva,sans-serif;
-margin: 89px 53px 12px 29px;
-padding-left: 9px;
+margin: 218px 140px 0px 168px;
+padding: 0px 10px 12px 48px;
+font-family: Verdana;
+
 }
 
 #blogg form H4
 {
-        line-height: 8px;
-font-family: Tahoma,Geneva,sans-serif;
+       line-height: 5px;
 font-weight: bold;
 text-align: center;
-font-size: 24px;
+font-size: 55px;
+font-family: Verdana;
+padding: 36px 10px 39px 10px;
 }
 
 
@@ -672,7 +676,7 @@ font-size: 24px;
         color: #AA3939;
 padding: 10px;
 font-family: Tahoma,Geneva,sans-serif;
-font-size: 12px;
+font-size: 43px;
 margin-bottom: 15px;
 margin-top: 10px;
 background-color: rgba(255, 255, 255, 0.4);
@@ -684,7 +688,7 @@ border: 2px solid #AA3939;
        border: 2px solid #AA3939;
 padding: 10px;
 font-family: Keffeesatz,Arial;
-font-size: 12px;
+font-size: 43px;
 margin-bottom: 15px;
 margin-top: 10px;
 background-color: rgba(255, 255, 255, 0.4);
@@ -696,13 +700,20 @@ color: #AA3939;
 {
         color: #AA3939;
 background-color: rgba(255, 255, 255, 0.4);
-padding: 10px;
+padding: 8px 10px 41px 202px;
 font-family: Keffeesatz,Arial;
 margin-top: 10px;
 width: 311px;
 margin-bottom: 15px;
-font-size: 16px;
+font-size: 43px;
 border: 2px solid #AA3939;
+}
+
+ #blogg input[type=radio] {
+        border: 0px none;
+    width: 2%;
+    height: 1em;
+
 }
 
 
