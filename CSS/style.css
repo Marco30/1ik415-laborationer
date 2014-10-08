@@ -467,7 +467,7 @@ margin: 0px 0px -40px 0px;
 
 div#blogg P {
    font-family: verdana;
-font-weight: bold;
+font-weight: none;
 text-align: left;
 font-size: 30px;
 margin: 0px 90px -65px 0px;
@@ -643,10 +643,16 @@ div#meny #active /* visar vilken sida man är på i menyn genom att göra den le
 .lablista
 {
         
-       text-align: left;
+       /*text-align: left;
 padding: 46px 0px 0px 0px;
 font-size: 30px;
-margin: -50px 72px 29px 28px;
+margin: -50px 72px 29px 28px;*/
+
+text-align: left;
+padding: 51px 0px 0px 0px;
+font-size: 30px;
+margin: 0px 70px 7px 28px;
+
 }
 
 .right {
