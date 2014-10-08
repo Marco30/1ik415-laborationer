@@ -456,7 +456,7 @@ div#blogg P {
    font-family: verdana;
 font-weight: bold;
 text-align: left;
-font-size: 17px;
+font-size: 30px;
 margin: 35px 92px -40px 0px;
 width: 896px;
 }
@@ -630,7 +630,7 @@ div#meny #active /* visar vilken sida man är på i menyn genom att göra den le
         
        text-align: left;
 padding: 0px 0px 0px 0px;
-font-size: 15px;
+font-size: 30px;
 margin: 0px 72px 29px 28px;
 }
 
