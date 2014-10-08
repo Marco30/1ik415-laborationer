@@ -406,23 +406,24 @@ text-decoration: none;
         border-right: 2px solid black;
 	}
 
-        div#sidhuvud
-	{
-	        background-image: url(pics/max.png);
-	        height:171px;
+        div#sidhuvud /* skappar rammen längs upp, den som har sidans namn */
+{
+      
+        background-image: url(pics/Max.png);
+        height:171px;
+       
+}
 
-	        
-	}
-
-	div#sidhuvud h1 
-	{
-	        font-size: 40px;
-font-weight: bold;
-line-height: 104px;
+div#sidhuvud H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
+{
+        font-weight: none;
+line-height: 171px;
 text-align: center;
-font-family: Impact,Charcoal,sans-serif;
-color: black;
-	}
+font-family: Verdana;
+font-size: 61px;
+color: white;
+}
+
 
 	div#blogg 
 	{
@@ -436,43 +437,65 @@ color: black;
 	div#blogg H2 
 	{
     font-family: Tahoma,Geneva,sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
+font-weight: bold;
+text-align: center;
+font-size: 14px;
 	}
 
 div#blogg H4 
 {
-    line-height: 0px;
-font-family: Tahoma,Geneva,sans-serif;
+    line-height: 90px;
 font-weight: bold;
 text-align: center;
-font-size: 14px;
+font-size: 13px;
 padding: 40px 7px 16px;
+font-family: verdana;
+
 }
 
 div#blogg P {
     padding-left: 0%;
-    font-family: ‘Lucida Sans Unicode’,‘Lucida Grande’,sans-serif;
-    font-weight: bold;
-    text-align: left;
-    font-size: 15px;
-    margin: 26px 7px -26px 7px;
-width: 460px;
+font-family: verdana;
+font-weight: bold;
+text-align: left;
+font-size: 16px;
+margin: 34px 117px -40px 117px;
+width: 684px;
+}
+
+#blogg table, th, td {
+margin-right: auto;
+border: 1px solid black;
+margin: 34px 21px -61px 21px;
+font-size: 42px;
+font-family: verdana;
+line-height: 81px;
+padding: 0px 9px 3px 9px;
+}
+
+
+#blogg a
+{
+
+font-size: 16px;
+font-family: verdana;
+line-height: 61px;
+
 }
 
 div#blogg #sprite {
-        width: 24px;
-        height: 24px;
-        background: url(pics/sprite.png) 24px -144px;
-padding: 4px 24px 3px 0px;
+       height: 24px;
+background: url('pics/sprite.png') no-repeat scroll 24px -144px transparent;
+padding: 0px 24px 3px 48px;
 display: block;
 width: 147px;
-margin: 22px 0px -38px 16px;
-background-repeat: no-repeat;
+margin: 41px 56px -39px 157px;
 text-decoration: none;
-color: #ccc8b8;
-
+color: #CCC8B8;
+font-size: 31px;
+font-family: verdana;
+font-weight: bold;
+background-repeat: no-repeat;
 
 }
 
@@ -480,10 +503,10 @@ div#blogg #sprite:hover{
         width: 24px;
         height: 24px;
         background: url(pics/sprite.png) 24px -96px;
-padding: 4px 24px 3px 0px;
+padding: 0px 24px 3px 48px;
 display: block;
 width: 147px;
-margin: 22px 0px -38px 16px;
+margin: 41px 56px -39px 157px;
 background-repeat: no-repeat;
 text-decoration: none;
 color: blue;
@@ -495,12 +518,14 @@ div#blogg #b {
   height: 24px;
    background: url('pics/sprite.png') 24px -192px;
  text-align: center;
-padding: 5px 24px 3px 0px;
+padding: 1px 76px 1px 76px;
 display: block;
 width: 147px;
-margin: 9px 0px -26px -48px;
+margin: 10px 0px -26px -48px;
 background-repeat: no-repeat;
 text-decoration: none;
+line-height: 33px;
+font-size: 38px;
    
 } 
 
@@ -509,14 +534,15 @@ div#blogg #b:hover{
   width: 24px;
   height: 24px;
   text-align: center;
-padding: 5px 24px 3px 0px;
+padding: 1px 76px 1px 76px;
 display: block;
 width: 147px;
-margin: 9px 0px -26px -48px;
+margin: 10px 0px -26px -48px;
 background-repeat: no-repeat;
 color: #ccc8b8;
 text-decoration: none;
-  
+ line-height: 33px;
+font-size: 38px;
 } 
 
 
@@ -545,17 +571,17 @@ div#sidfot P
 
 div#menyruta /* skappar rutan som menyn finns i och har alla des egenskaper som färg, bred, position m.m.*/
 {
-        font-family: Impact,Charcoal,sans-serif;
-width: 460px;
+      font-family: Impact,Charcoal,sans-serif;
+width: 915px;
 height: auto;
-padding: 2px 4px 3px 4px;
+padding: 17px 10px 47px 10px;
       
 }
 
 div#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
 {
-        font-size: 17px;
-margin: -14px 201px -14px 201px;
+        font-size: 44px;
+margin: 3px 201px 41px 201px;
 font-family: Verdana;
 
 }
@@ -563,8 +589,8 @@ font-family: Verdana;
 div#meny /* centerar all text i meny div*/ 
 {
         text-align: center;
-       border-top: 2px solid #000;
-        border-bottom: 2px solid #000;
+border-top: 4px solid #000;
+border-bottom: 4px solid #000;
 }
 
 
@@ -577,10 +603,10 @@ list-style: none outside none;
 	
 div#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
-     font-size: 13px;
-border: 1px solid #F00;
-padding: 5px 6px;
-margin: 0px 0px 1px 8px;
+     font-size: 36px;
+border: 2px solid #F00;
+padding: 10px 6px;
+margin: -56px 10px 23px 10px;
 border-radius: 3px;
 display: block;
 text-decoration: none;
@@ -588,12 +614,12 @@ color: #FFF;
 background: url('pics/Max.png') repeat scroll 0% 0% transparent;
 width: auto;
 font-family: Verdana;
-font-weight: bold;
+font-weight: none;
 }
 
 div#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
-        padding: 5px 12px;
+        padding: 10px 12px;
         color: white;
 }
 	
@@ -605,13 +631,15 @@ div#meny #active /* visar vilken sida man är på i menyn genom att göra den le
 .lablista
 {
         
-        text-align:left;
-        padding: 5px 11px 7px 100px;
+       text-align: left;
+padding: 0px 0px 0px 0px;
+font-size: 13px;
+margin: 0px 72px 29px 72px;
 }
 
 .right {
     float: right;
-    margin: 0px 18px 20px 21px;
+    margin: 48px 126px 0px 126px;
 }
 
 /*formulär*/
