@@ -58,7 +58,7 @@ table {
 }
 
 
-#sidhuvud /* skappar rammen längs upp, den som har sidans namn */
+header /* skappar rammen längs upp, den som har sidans namn */
 {
       
         background-image: url(pics/Max.png);
@@ -66,7 +66,7 @@ table {
        
 }
 
-#sidhuvud H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
+header H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud div */
 {
         font-weight: bold;
         line-height:171px;
@@ -99,21 +99,21 @@ table {
         font-size: 35px;
 }
 
-#meny /* centerar all text i meny div*/ 
+nav /* centerar all text i meny div*/ 
 {
         text-align: center;
        
 }
 
 
-#meny li /* ger li följande egenskaper som alltid är bundna till meny div */
+nav li /* ger li följande egenskaper som alltid är bundna till meny div */
 { 
         margin: 5px;
         padding: 0;
         list-style: none;
 }
 	
-#meny li a /* ger li a följande egenskaper som alltid är bundna till meny div */
+nav li a /* ger li a följande egenskaper som alltid är bundna till meny div */
 {
         display: block;
         width: 130px;
@@ -129,19 +129,19 @@ table {
 	
 }
 
-#meny li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
+nav li a:hover /* ger li A följande egenskaper när mus pekaren svävar över den */
 {
         padding: 5px 12px;
         color: white;
 }
 	
-#meny #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+nav #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
         background: black;
 }
 
 
-#blogg 
+main
 {
         float: left;
         width: 780px; 
@@ -150,7 +150,7 @@ table {
         text-align:center;
 }
 
-#blogg table, th, td 
+main table, th, td 
 {
         margin-left:auto; 
         margin-right:auto;
@@ -158,7 +158,7 @@ table {
 } 
 
 
-#blogg H2
+main H2
 {
         font-family: Tahoma, Geneva, sans-serif;
         font-weight: bold;
@@ -166,7 +166,7 @@ table {
         font-size: 40px;
 }
 
-#blogg H4
+main H4
 {
         line-height:100px;
         font-family: Tahoma, Geneva, sans-serif;
@@ -175,7 +175,7 @@ table {
         font-size: 20px;
 }
 
-#blogg form 
+main form 
 {
         text-align: left;
         background: none repeat scroll 0% 0% #CCC;
@@ -188,7 +188,7 @@ table {
         margin: 20px 50px 20px 90px;
 }
 
-#blogg form H4
+main form H4
 {
         line-height:100px;
         font-family: Tahoma, Geneva, sans-serif;
@@ -197,7 +197,7 @@ table {
         font-size: 30px;
 }
 
-#blogg input 
+main input 
 {
         color: rgb(170, 57, 57);
         padding: 10px;
@@ -209,7 +209,7 @@ table {
         border: 5px solid rgb(170, 57, 57);
 }
 
-#blogg select 
+main select 
 {
         border: 5px solid #AA3939;
         padding: 10px;
@@ -222,7 +222,7 @@ table {
 }
 
 
-#blogg textarea 
+main textarea 
 {
         color: #AA3939;
         background-color: rgba(255, 255, 255, 0.4);
@@ -237,7 +237,7 @@ table {
 
 
 
-#blogg P
+main P
 {
         padding-left: 5%;
         font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
