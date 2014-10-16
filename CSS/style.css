@@ -275,7 +275,7 @@ table {
  .left /*class som   placerar objekt till vänster*/
 {
         float:left; 
-        margin: 20px 520px 20px 20px;
+       margin: 20px 676px 20px 45px;
 }
 
 #hcard
@@ -340,6 +340,7 @@ color: #ccc8b8;
 text-decoration: none;
   
 } 
+
 
 
 .lablista

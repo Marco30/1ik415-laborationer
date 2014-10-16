@@ -49,67 +49,79 @@ table {
 
 /* Gallery*/
 
-body 
-{
-    background: #777;   
-}
-
-a 
-{
-   display: inline-block;
-position: relative;
-margin: 18px;
-padding: 15px;
-width: 150px;
-z-index: 10;
-box-shadow: 10px 10px 5px #000;
-transition: all 0.8s ease 0s;
-background: none repeat scroll 0% 0% #FFF;
-}
-
-a img 
-{
-    height: inherit;
-    width: inherit;
-}
-
-a:nth-child(1n) 
-{
-   
-    transform: rotate(15deg);
-}
-
-a:nth-child(2n) 
-{
-   
-    transform: rotate(-5deg);
-}
-
-a:nth-child(3n) 
-{
-    
-    transform: rotate(10deg);
-}
-
-a:nth-child(5n) 
-{
-    
-    transform: rotate(-15deg);
-}
-
-a:hover, a:focus
-{
-    -ms-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -o-transform: scale(1.3);
-    transform: scale(1.3);
-    box-shadow: 10px 10px 31px #000;
-}
-
-a:after {
-    font-family: 'Shadows Into Light', cursive;
-    display: block;
-    padding: 10px;
-    content: attr(title);
-}
+        body 
+        {
+            background: #21305C;   
+        }
+        
+        main
+        {
+             text-decoration: none;
+             margin: 35px 91px 0px;
+        }
+        
+        #images
+        {
+            
+            text-decoration: none;
+        }
+        
+        a 
+        {
+            display: inline-block;
+            position: relative;
+            margin: 24px;
+            padding: 9px;
+            width: 153px;
+            z-index: 10;
+            box-shadow: 10px 10px 5px #000;
+            transition: all 0.8s ease 0s;
+            background: none repeat scroll 0% 0% #FFF;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        a img 
+        {
+            height: inherit;
+            width: inherit;
+        }
+        
+        a:nth-child(1n) 
+        {
+           
+            transform: rotate(15deg);
+        }
+        
+        a:nth-child(2n) 
+        {
+           
+            transform: rotate(-5deg);
+        }
+        
+        a:nth-child(3n) 
+        {
+            
+            transform: rotate(7deg);
+        }
+        
+        a:nth-child(5n) 
+        {
+            
+            transform: rotate(-30deg);
+        }
+        
+        a:hover, a:focus
+        {
+            
+            transform: scale(1.3);
+            box-shadow: 10px 10px 31px #000;
+            z-index: 20;
+        }
+        
+        a:after {
+            font-family: 'Shadows Into Light', cursive;
+            display: block;
+            padding: 10px;
+            content: attr(title);
+        }
