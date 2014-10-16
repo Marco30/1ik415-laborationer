@@ -91,13 +91,6 @@ header H1 /* ger H1 följande egenskaper som  alltid är bundna till sidhuvud di
       
 }
 
-#menyruta H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
-{
-        line-height:50px;
-        font-weight: bold;
-        text-align:center;
-        font-size: 35px;
-}
 
 nav /* centerar all text i meny div*/ 
 {
@@ -105,6 +98,13 @@ nav /* centerar all text i meny div*/
        
 }
 
+nav H4 /* ger H1 följande egenskaper som alltid är bundna till menyruta div */
+{
+        line-height:50px;
+        font-weight: bold;
+        text-align:center;
+        font-size: 35px;
+}
 
 nav li /* ger li följande egenskaper som alltid är bundna till meny div */
 { 
@@ -150,7 +150,7 @@ main
         text-align:center;
 }
 
-main table, th, td 
+article table, th, td 
 {
         margin-left:auto; 
         margin-right:auto;
@@ -158,24 +158,27 @@ main table, th, td
 } 
 
 
-main H2
+article H2
 {
         font-family: Tahoma, Geneva, sans-serif;
         font-weight: bold;
         text-align:center;
-        font-size: 40px;
+        font-size: 32px;
+        margin: 26px;
+        text-decoration: underline;
 }
 
-main H4
+article H4
 {
         line-height:100px;
         font-family: Tahoma, Geneva, sans-serif;
         font-weight: bold;
         text-align:center;
         font-size: 20px;
+       
 }
 
-main form 
+article form 
 {
         text-align: left;
         background: none repeat scroll 0% 0% #CCC;
@@ -188,7 +191,7 @@ main form
         margin: 20px 50px 20px 90px;
 }
 
-main form H4
+article form H4
 {
         line-height:100px;
         font-family: Tahoma, Geneva, sans-serif;
@@ -197,7 +200,7 @@ main form H4
         font-size: 30px;
 }
 
-main input 
+article input 
 {
         color: rgb(170, 57, 57);
         padding: 10px;
@@ -209,7 +212,7 @@ main input
         border: 5px solid rgb(170, 57, 57);
 }
 
-main select 
+article select 
 {
         border: 5px solid #AA3939;
         padding: 10px;
@@ -222,7 +225,7 @@ main select
 }
 
 
-main textarea 
+article textarea 
 {
         color: #AA3939;
         background-color: rgba(255, 255, 255, 0.4);
@@ -237,7 +240,7 @@ main textarea
 
 
 
-main P
+article P
 {
         padding-left: 5%;
         font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
@@ -245,7 +248,20 @@ main P
         text-align:left;
 }
 
-#sidfot 
+aside {
+    border-top: 3px solid black;
+    width: 44%;
+    margin: 29px 213px 0px 213px;
+    padding: 10px;
+    clear: both;
+    color: #000;
+    border-bottom: 3px solid black;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+
+footer
 {	
         clear: left;
         width: 960px;
@@ -255,7 +271,7 @@ main P
 
 }
 
-#sidfot P
+footer P
 {
         line-height:50px;
         text-align:center;
@@ -279,7 +295,7 @@ main P
 }
 
 
-#blogg #sprite {
+article #sprite {
         width: 24px;
         height: 24px;
         background: url(pics/sprite.png) 24px -144px;
@@ -294,7 +310,7 @@ color: #ccc8b8;
 
 }
 
-#blogg #sprite:hover{
+article #sprite:hover{
         width: 24px;
         height: 24px;
         background: url(pics/sprite.png) 24px -96px;
@@ -307,7 +323,7 @@ text-decoration: none;
 color: blue;
 }
 
-#blogg #b {
+article #b {
    
   width: 24px;
   height: 24px;
@@ -322,7 +338,7 @@ text-decoration: none;
    
 } 
 
-#blogg #b:hover{
+article #b:hover{
   background: url('pics/sprite.png') 24px -240px;  
   width: 24px;
   height: 24px;
