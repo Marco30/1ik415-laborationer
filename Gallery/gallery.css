@@ -60,12 +60,6 @@ table {
              margin: 35px 91px 0px;
         }
         
-        #images
-        {
-            
-            text-decoration: none;
-        }
-        
         a 
         {
             display: inline-block;
@@ -120,8 +114,9 @@ table {
         }
         
         a:after {
-            font-family: 'Shadows Into Light', cursive;
+            font-family: 'Source Sans Pro';
             display: block;
             padding: 10px;
             content: attr(title);
+            font-weight: bold;
         }
